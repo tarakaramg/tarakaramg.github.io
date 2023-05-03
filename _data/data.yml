@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: gollamudi.ram at gmail
+    email: gollamudi.ram at gmail dot com
     phone: 
     timezone: EST
     citizenship: Cambridge, MA
@@ -47,7 +47,12 @@ sidebar:
 career-profile:
     title: Research Interests
     summary: |
-      Number Theory, Formal Methods and Cryptography
+      My current research falls under the intersection of formal verification, mathematics, machine learning and cryptography.
+      
+      <b> Broad Research Areas
+      -  Number Theory
+      -  Formal Methods
+      -  Cryptography.
 education:
     title: Education
     info:
@@ -90,9 +95,9 @@ experiences:
 projects:
     title: Projects
     intro: >
-       My current research falls under the intersection of formal verification, mathematics, machine learning and cryptography.
+       
     assignments:
-      - title: Mechanized Certified Adversarial Robustness via Randomized Smoothing with Joseph Tassarotti.
+      - title: Mechanized Certified Adversarial Robustness (Working Paper)
         link: "https://github.com/jtassarotti/val"
         tagline:  "We present a complete mechanized proof of the robustness guarantee of classifiers by Cohen et
 		   al. The proof has been developed in Coq. Since the original proof relies on inverse CDF of the
@@ -102,11 +107,11 @@ projects:
 		   not carry the theoretical robustness. The challenge here is to extend robustness guarantees to the
 		   implementation. Our approach relies on two key insights: first, relying on a formally verified
 		   external sampler and second, modeling the robustness result using discrete Gaussian distribution.
-		   We are exploring both directions. This is a work in progress. "
+		   We are exploring both directions. Joint work with Joseph Tassarotti. "
 
-      - title: Formally verifying the correctness of samplers that approximate samples to that rounded Gaussians 
+      - title: Certified Gaussian Samplers
         link: "#"
-        tagline: ""
+        tagline: "Formally verifying the correctness of Gaussian samplers that approximate samples to that rounded Gaussians."
 
       - title: Verified MCMC
         link: "#"
@@ -120,7 +125,7 @@ publications:
       - title: L_b-ideals at irregular CM points of weight 1.
         link: "https://doi.org/10.48617/etd.44"
         authors: Tarakaram Gollamudi
-        conference: PhD Thesis
+        conference: PhD Thesis (2021)
 
 
 skills:
