@@ -77,11 +77,11 @@ experiences:
         company: Boston College, Boston
         details: |
           Advisor: Joseph Tassarotti
-            - Formally verifying robustness of cryptography and machine learning models.
+            - Formally verifying the robustness of cryptography and machine learning models.
        
       - role: Research Assistant Intern 
         time: 06/2019 - 08/2019
-        company: Boston Univeristy, Boston
+        company: Boston University, Boston
         details: |
           Advisor: Alley Stoughton
             - During the internship, I developed a testsuite for maintaining ucDSL.
@@ -94,19 +94,22 @@ experiences:
 
       - role: Graduate Research Assistant 
         time: 2014 - 2021
-        company: Brandeis Univeristy, Waltham
+        company: Brandeis University, Waltham
         details: |
           Advisor: Joel Bellaiche
-            - Courses Taught (as independent instructor)
+            - My primary area of research is Eigen varieties and p-adic L-functions.
+                - My dissertation focuses on investigating the behaviour of L_b ideal without knowing the modules of
+                  overconvergent modular symbols M+ and M- at p irregular cuspidal CM modular forms of weight 1 and level N.
+            - Courses Taught (as an independent instructor)
                 - Applied Linear algebra (Fall 2020)
                 - 2nd-semester calculus (Fall 2016, Fall 2017, Spring 2020)
                 - 1st-semester calculus (Spring 2017, Fall 2015)
             - Courses Designed
                 - Applied Linear Algebra Practicum at Brandeis University (with Prof. John Wilmes and others)
-                - Mathematics of Cryptography. This course introduces mathematics of public key cryptosystems with emphasis on Elliptic Curve Cryptography
+                - Mathematics of Cryptography. This course introducesthe mathematics of public key cryptosystems with an emphasis on Elliptic Curve Cryptography
 
 projects:
-    title: Projects
+    title: Current Projects
     intro: >
        
     assignments:
@@ -128,7 +131,7 @@ projects:
 
       - title: Verified MCMC
         link: "#"
-        tagline: "Formally verifying the convergence of MCMC theorem in discrete and n-dimensional reals."
+        tagline: "Formally verifying the convergence of Markov chain Monte Carlo (MCMC) theorem in discrete and n-dimensional reals."
 
 publications:
     title: Publications
