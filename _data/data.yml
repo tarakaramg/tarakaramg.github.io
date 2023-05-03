@@ -1,0 +1,148 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Tarakaram Gollamudi
+    tagline: Formal Methods Researcher
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: gollamudi.ram at gmail
+    phone: 
+    timezone: EST
+    citizenship: Cambridge, MA
+    website: tarakaramg.github.io
+    linkedin: tarakaram-gollamudi
+    xing: 
+    github: tarakaramg
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: # http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Full Professional Proficiency
+
+        - idiom: Hindi
+          level: Full Professional Proficiency
+
+        - idiom: French
+          level: Limited Working Proficiency
+
+        - idiom: Telugu
+          level: Native
+
+career-profile:
+    title: Research Interests
+    summary: |
+      Number Theory, Formal Methods and Cryptography
+education:
+    title: Education
+    info:
+      - degree: PhD in Mathematics
+        university: Brandeis University
+        time: 2014 - 2021
+        details: |
+      - degree: MA in Mathematics
+        university: Brandeis University
+        time: 2013 - 2014
+        details: |
+      - degree: PhD in Mathematics
+        university: IIT Bombay
+        time: 2012 - 2013
+        details: No degree.
+
+experiences:
+    title: Work Experience
+    info:
+      - role: Postdoctoral Research Fellow
+        time: 2021 - Present
+        company: Boston College, Boston
+        details: |
+          Advisor: Joseph Tassarotti
+            - Formally verifying robustness of cryptography and machine learning models.
+       
+      - role: Research Assistant Intern 
+        time: 06/2019 - 08/2019
+        company: Boston Univeristy, Boston
+        details: |
+          Advisor - Alley Stoughton
+            - During the internship, I developed a testsuite for maintaining ucDSL.
+          This involves developing a test description language
+          (using Menhir) that automatically executes the corresponding test and generates an elaborate
+          report. Part of the challenge is in supporting extensive exception/error handling.
+          Future work includes translating ucDSL programs into EasyCrypt’s procedural programming language and proving that
+          the translation is semantically preserving.
+          The project also involved writing formal proofs in EasyCrypt proof assistant.
+          
+projects:
+    title: Projects
+    intro: >
+       My current research falls under the intersection of formal verification, mathematics, machine learning and cryptography.
+    assignments:
+      - title: Mechanized Certified Adversarial Robustness via Randomized Smoothing with Joseph Tassarotti.
+        link: "https://github.com/jtassarotti/val"
+        tagline:  "We present a complete mechanized proof of the robustness guarantee of classifiers by Cohen et
+		   al. The proof has been developed in Coq. Since the original proof relies on inverse CDF of the
+		   standard Gaussian distribution and any implementation of the Gaussian distributions involves
+		   some way of rounding a real number to the nearest floating point which may introduce rounding
+		   errors. These rounding errors can be significant enough that implementation of the classifier may
+		   not carry the theoretical robustness. The challenge here is to extend robustness guarantees to the
+		   implementation. Our approach relies on two key insights: first, relying on a formally verified
+		   external sampler and second, modeling the robustness result using discrete Gaussian distribution.
+		   We are exploring both directions. This is a work in progress. "
+
+      - title: Formally verifying the correctness of samplers that approximate samples to that rounded Gaussians 
+        link: "#"
+        tagline: ""
+
+      - title: Verified MCMC
+        link: "#"
+        tagline: "Formally verifying the convergence of MCMC theorem in discrete and n-dimensional reals."
+
+publications:
+    title: Publications
+    intro: |
+      
+    papers:
+      - title: L_b-ideals at irregular CM points of weight 1.
+        link: "https://doi.org/10.48617/etd.44"
+        authors: Tarakaram Gollamudi
+        conference: PhD Thesis
+
+
+skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Python & OCaml
+        level: 80% 
+
+      - name: C & Java
+        level: 50%
+
+      - name: Proof Assistants - EasyCrypt and Coq
+        level: 90%
+
+      - name: Mathematics Packages -  Sage, Magma.
+        level: 50%
+
+      - name: MSSQL, MySQL
+        level: 50%
+
+      - name: Cryptography - Public Key Encryption, Elliptic Curve Encryption, Lattice Based Cryptography, Zero Knowledge Proofs
+        level: 75%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
