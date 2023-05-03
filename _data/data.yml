@@ -91,7 +91,20 @@ experiences:
           Future work includes translating ucDSL programs into EasyCrypt’s procedural programming language and proving that
           the translation is semantically preserving.
           The project also involved writing formal proofs in EasyCrypt proof assistant.
-          
+
+      - role: Graduate Research Assistant 
+        time: 2014 - 2021
+        company: Brandeis Univeristy, Waltham
+        details: |
+          Advisor - Joel Bellaiche
+            - Courses Taught (as independent instructor)
+                - Applied Linear algebra (Fall 2020)
+                - 2nd-semester calculus (Fall 2016, Fall 2017, Spring 2020)
+                - 1st-semester calculus (Spring 2017, Fall 2015)
+            - Courses Designed
+                - Applied Linear Algebra Practicum at Brandeis University (with Prof. John Wilmes and others)
+                - Mathematics of Cryptography. This course introduces mathematics of public key cryptosystems with emphasis on Elliptic Curve Cryptography
+
 projects:
     title: Projects
     intro: >
