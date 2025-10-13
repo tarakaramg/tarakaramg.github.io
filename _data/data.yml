@@ -76,15 +76,14 @@ experiences:
         time: 2024 - Present
         company: 
         details: |
-            - ILA: Correct-by-construction compiler for FHE
-       
+          Current : ILA Correct-by-construction compiler for FHE
       - role: Postdoctoral Research Fellow
         time: 2023 - 2024
         company: Carnegie Mellon University, Pittsburgh
         details: |
           Advisor: Stephanie Balzer
             - Formal verification and Pogramming langauges.
-       - role: Postdoctoral Research Fellow
+      - role: Postdoctoral Research Fellow
         time: 2021 - Present
         company: Boston College, Boston
         details: |
@@ -145,11 +144,11 @@ publications:
     intro: |
       
     papers:
-      - title: “ILA: Correctness via Type Checking for Fully Homomorphic Encryption.
+      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
         link: "#"
         authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
         conference: ACM Conference on Computer and Communications Security (CCS). 2025.
-      - title: “ILA: Correctness via Type Checking for Fully Homomorphic Encryption.
+      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
         link: "#"
         authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
         conference: Principles of Secure Compilation (PriSC). 2025.
@@ -157,7 +156,7 @@ publications:
         link: "#"
         authors: Tarakaram Gollamudi, Jules Jacobs, Yue Yao, and Stephanie Balzer
         conference: CoqPL. 2025
-      - title: Heraclius: A Byzantine Fault Tolerant Database System with Potential for Modern Payments Systems
+      - title: Heraclius A Byzantine Fault Tolerant Database System with Potential for Modern Payments Systems
         link: "https://doi.org/10.17016/FEDS.2025.012. 2025"
         authors: L. James, Tarakaram Gollamudi, K. Jeremy, P. Narayanan, B. Jeremy, and T. Eric.
         conference: Finance and Economics Discussion Series (FEDS).
