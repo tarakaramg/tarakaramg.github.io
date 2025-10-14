@@ -52,7 +52,8 @@ career-profile:
       <b> Broad Research Areas
       -  Programming Languages
       -  Formal Methods
-      -  Cryptography.
+      -  Cryptography
+      -  Privacy Preserving Machine Learning
 education:
     title: Education
     info:
@@ -64,10 +65,47 @@ education:
         university: Brandeis University
         time: 2013 - 2014
         details: |
-      - degree: PhD in Mathematics
-        university: IIT Bombay
-        time: 2012 - 2013
-        details: No degree.
+
+projects:
+    title: Current Projects
+    intro: >
+       
+    assignments:
+      - title: Privacy Preserving Machine Learning
+        link: "#"
+        tagline:  "Extending ILA compiler for PPML (Privacy Preserving Machine Learning)"
+
+      - title: Formal Verification of Distributed Consensus
+        link: "#"
+        tagline: "Formally verifying the correctness and security of Byzantine Fault Tolerant consensus."
+
+
+publications:
+    title: Publications
+    intro: |
+      
+    papers:
+      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
+        link: "https://arxiv.org/abs/2509.11559"
+        authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
+        conference: ACM Conference on Computer and Communications Security (CCS). 2025.
+      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
+        link: "https://popl25.sigplan.org/details/prisc-2025-PriSC-2024-1/8/ILA-Correctness-via-Type-Checking-for-Fully-Homomorphic-Encryption"
+        authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
+        conference: Principles of Secure Compilation (PriSC). 2025.
+      - title: A Semantic Logical Relation for Termination of Intuitionistic Linear Logic Session Types.
+        link: "https://popl25.sigplan.org/details/CoqPL-2025-papers/4/A-Semantic-Logical-Relation-for-Termination-of-Intuitionistic-Linear-Logic-Session-Ty"
+        authors: Tarakaram Gollamudi, Jules Jacobs, Yue Yao, and Stephanie Balzer
+        conference: CoqPL. 2025
+      - title: Heraclius A Byzantine Fault Tolerant Database System with Potential for Modern Payments Systems
+        link: "https://www.federalreserve.gov/econres/feds/files/2025012pap.pdf"
+        authors: L. James, Tarakaram Gollamudi, K. Jeremy, P. Narayanan, B. Jeremy, and T. Eric.
+        conference: Finance and Economics Discussion Series (FEDS).
+      - title: L_b-ideals at irregular CM points of weight 1.
+        link: "https://doi.org/10.48617/etd.44"
+        authors: Tarakaram Gollamudi
+        conference: PhD Thesis (2021)
+
 
 experiences:
     title: Work Experience
@@ -76,7 +114,7 @@ experiences:
         time: 2024 - Present
         company: 
         details: |
-          Current : ILA Correct-by-construction compiler for FHE
+          Current : Privacy Preserving Machine Learning
       - role: Lead Software Engineer - Cryptography
         time: 2024 - Present
         company: Federal Reserve Bank of Boston
@@ -86,7 +124,7 @@ experiences:
         company: Carnegie Mellon University, Pittsburgh
         details: |
           Advisor: Stephanie Balzer
-            - Formal verification and Pogramming langauges.
+            - Formal Verification and Pogramming Langauges.
       - role: Postdoctoral Research Fellow
         time: 2021 - Present
         company: Boston College, Boston
@@ -121,45 +159,6 @@ experiences:
             - Courses Designed
                 - Applied Linear Algebra Practicum at Brandeis University (with Prof. John Wilmes and others)
                 - Mathematics of Cryptography. This course introducesthe mathematics of public key cryptosystems with an emphasis on Elliptic Curve Cryptography
-
-projects:
-    title: Current Projects
-    intro: >
-       
-    assignments:
-      - title: Encrypted Inference
-        link: "#"
-        tagline:  "Extend ILA compiler to build Nueral Nets."
-
-      - title: Formal Verification of Distributed Consensus
-        link: "#"
-        tagline: "Formally verifying the correctness and security of Byzantine Fault Tolerant consensus."
-
-publications:
-    title: Publications
-    intro: |
-      
-    papers:
-      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
-        link: "#"
-        authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
-        conference: ACM Conference on Computer and Communications Security (CCS). 2025.
-      - title: ILA Correctness via Type Checking for Fully Homomorphic Encryption.
-        link: "#"
-        authors: Tarakaram Gollamudi, Anitha Gollamudi, and Joshua Gancher
-        conference: Principles of Secure Compilation (PriSC). 2025.
-      - title: A Semantic Logical Relation for Termination of Intuitionistic Linear Logic Session Types.
-        link: "#"
-        authors: Tarakaram Gollamudi, Jules Jacobs, Yue Yao, and Stephanie Balzer
-        conference: CoqPL. 2025
-      - title: Heraclius A Byzantine Fault Tolerant Database System with Potential for Modern Payments Systems
-        link: "https://doi.org/10.17016/FEDS.2025.012. 2025"
-        authors: L. James, Tarakaram Gollamudi, K. Jeremy, P. Narayanan, B. Jeremy, and T. Eric.
-        conference: Finance and Economics Discussion Series (FEDS).
-      - title: L_b-ideals at irregular CM points of weight 1.
-        link: "https://doi.org/10.48617/etd.44"
-        authors: Tarakaram Gollamudi
-        conference: PhD Thesis (2021)
 
 
 skills:
