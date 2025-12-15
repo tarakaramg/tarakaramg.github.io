@@ -79,6 +79,10 @@ projects:
         link: "#"
         tagline: "Formally verifying the correctness and security of Byzantine Fault Tolerant consensus."
 
+      - title: Formal Verification Trusted Execution Environments (TEEs).
+        link: "#"
+        tagline: "Formal verification of confidentiality and integrity of TEEs."
+
 
 publications:
     title: Publications
